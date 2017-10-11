@@ -1,0 +1,29 @@
+<% if user_signed_in? %><h1>Welcome <%= current_user.name %></h1>
+<p><b>Email: </b><%=current_user.email %></p> 
+
+<h1>add groupmate</h1>
+<table class="table"><th>college ids</th>
+	<tbody><% @users.each do |user| %>
+		<tr> <td>	<%= user.college_roll %></td>
+			<td><%= link_to "request for grouping", friend_requests_path(friend_id: user), method: :post %></td>
+		</tr>
+	 <% end %>
+	</tbody></table>
+
+<h1> recieved request</h1>
+<table class="table"><th>college ids</th>
+<tbody>	<% @incomings.each do |friend_request| %>
+		<tr><td> <%= friend_request.sender_roll_no %></td>
+		<td><%= link_to "Accept", friendships_path(friendq: friend_request), method: :post %></td>
+		<!--<%= link_to "accept", friend_requests_path(friend_request_id: friend_request), method: :put %>--></tr>
+	 <% end %>
+	</tbody></table>
+<h1> sent request</h1>
+<table class="table"><th>college ids</th>
+	<tbody><% @outgoings.each do |friend_request| %>
+		<tr><td> <%= friend_request.friend_roll_no %></td></tr>
+			 
+		
+	 <% end %>
+	</tbody></table>
+<% end %>

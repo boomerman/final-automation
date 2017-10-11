@@ -1,0 +1,43 @@
+<div class="authform">
+  <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :role => 'form'}) do |f| %>
+    <h3>Sign up</h3>
+    <%= devise_error_messages! %>
+    <div class="form-group">
+      <%= f.label :name %>
+      <%= f.text_field :name, :autofocus => true, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :email %>
+      <%= f.email_field :email, class: 'form-control' %>
+    </div>
+     <div class="form-group">
+      <%= f.label :college_roll_no %>
+      <%= f.number_field :college_roll, class: 'form-control' %>
+    </div>
+     <div class="form-group">
+      <%= f.label :university_roll_no %>
+      <%= f.number_field :uni_roll, class: 'form-control' %>
+    </div>
+     <div class="form-group">
+      <%= f.label :year %>
+      <%= f.text_field :year, class: 'form-control' %>
+    </div>
+     <div class="form-group">
+      <%= f.label :branch %>
+      <%= f.text_field :branch, class: 'form-control' %>
+    </div>
+     <div class="form-group">
+      <%= f.label :course %>
+      <%= f.text_field :course, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :password_confirmation %>
+      <%= f.password_field :password_confirmation, class: 'form-control' %>
+    </div>
+     <%= f.submit 'Sign up', :class => 'button right' %>
+  <% end %>
+</div>
