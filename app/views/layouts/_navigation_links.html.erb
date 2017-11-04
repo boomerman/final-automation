@@ -1,2 +1,16 @@
 <%# add navigation links to this file %>
 <li><%= link_to 'About', page_path('about') %></li>
+<% if user_signed_in? %>
+<% if controller.try(:visitors?)%>
+ <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Friend Requests
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu" >
+          <% @incomings.each do |friend_request| %>
+          <li><%= friend_request.sender_roll_no %><%= link_to "Accept", friendships_path(friendq: friend_request), method: :post %></li>
+          <%end%>
+        </ul>
+     <%end%> </li>
+  <li><%= link_to 'Edit account', edit_user_registration_path %></li>
+  
+<% end %>

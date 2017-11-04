@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171003184314) do
+ActiveRecord::Schema.define(version: 20171104131631) do
 
   create_table "friend_requests", force: :cascade do |t|
     t.integer  "user_id"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20171003184314) do
     t.integer  "guide"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.string   "group_id"
     t.index ["friend_id"], name: "index_friendships_on_friend_id"
     t.index ["user_id"], name: "index_friendships_on_user_id"
   end
@@ -58,6 +59,7 @@ ActiveRecord::Schema.define(version: 20171003184314) do
     t.string   "year"
     t.string   "branch"
     t.string   "course"
+    t.integer  "group_id"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
