@@ -1,0 +1,14 @@
+<h1>Guide allotment portal</h1>
+<br><br>
+<table class="table"><th>group id</th><th>student 1</th><th>student 2</th><th>enter guide id</th>
+<tbody>	<% @groups.each do |group| %>
+		<tr><td> <%= group.group_id %></td>
+		<td> <%= group.user_roll %></td>
+		<td> <%= group.friend_roll %></td>
+		<td> <%= form_for :teams, :method =>"post" do |f| %>
+		<%= f.text_field :guide %>
+		<%= f.submit 'allot guide', :class => 'button-xs' %><%end%>
+		</tr>
+	 <% end %>
+	</tbody></table>
+

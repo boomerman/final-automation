@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'guideallot/allotment'
+
   resources :friendships
   #get 'friends/index'
   #get 'friends/destroy'
@@ -13,6 +15,9 @@ Rails.application.routes.draw do
 
   resources :friend_requests
   root to: 'visitors#index'
+  get '/project_corner', to: "visitors#student"
+  get '/guide', to: "visitors#teacher"
+  get '/coordinator', to: "visitors#coordinator"
   devise_for :users
   resources :users
 end

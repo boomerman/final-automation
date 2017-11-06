@@ -1,0 +1,2 @@
+module GuideallotHelper
+end

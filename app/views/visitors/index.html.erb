@@ -1,6 +1,14 @@
 
 <% if user_signed_in? %><h1>Welcome <%= current_user.name %></h1>
 <p><b>Email: </b><%=current_user.email %></p> 
-<p><b>Grouped members:</b> </p><% end%>
+<% if Friendship.exists?(user_id: current_user) %>
 
+<p><b>Grouped members:</b><%= @dosts.friend_roll%> </p>
+<p><b>Grouped number:</b><%= @dosts.group_id%> </p>
+<p><b>guide name:</b><%= @dosts.guide%> </p>
+<br><br>
+
+<%else%>
 <%= render 'visitors/request_table' %>
+<%end%>
+<% end%>

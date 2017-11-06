@@ -16,6 +16,6 @@ def create
     else
       render json: @friendship.errors, status: :unprocessable_entity
     end
-
+Team.create(group_id: group)
   end
 end
