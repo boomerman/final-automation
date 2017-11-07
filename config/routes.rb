@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'guideallot/allotment'
-
+resources :guideallots, only: [:update]
   resources :friendships
   #get 'friends/index'
   #get 'friends/destroy'

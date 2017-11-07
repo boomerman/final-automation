@@ -8,7 +8,6 @@ class User < ApplicationRecord
 
 validates :college_roll, :presence => true, :uniqueness => true
 validates_length_of :college_roll, :is => 6, :wrong_length => "incomplete"
-
 validates_length_of :uni_roll, :is => 7, :wrong_length => "incomplete"
 
   has_many :friend_requests, dependent: :destroy

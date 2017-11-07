@@ -18,4 +18,24 @@ def create
     end
 Team.create(group_id: group)
   end
+  def update
+   # @guide = params[:guide]
+    @group = Friendship.find(params[:id])
+a = @group.group_id
+
+puts a
+@groupq = Friendship.where(group_id: a)
+ 
+    if @groupq[0].update_attributes(secure_params) && @groupq[1].update_attributes(secure_params) #&& @groupq.update_attributes(secure_params)
+      redirect_to guideallot_allotment_path, :notice => "guide updated."
+    else
+      redirect_to guideallot_allotment_path, :alert => "Unable to update guide."
+    end
+  end
+  private
+  def secure_params
+    params.require(:friendship).permit(:guide)
+
+  end
 end
+ 
