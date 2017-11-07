@@ -1,6 +1,6 @@
 class FriendRequestsController < ApplicationController
 	 before_action :set_friend_request, except: [:index, :create]
-
+before_action :student_only
   def create
 
     friend = User.find(params[:friend_id])
@@ -26,6 +26,11 @@ private
   def set_friend_request
     @friend_request = FriendRequest.find(params[:id])
   end
+  def student_only
+    unless current_user.student? || current_user.admin?
+      redirect_to root_path, :alert => "Access denied."
+    end
+ end
 end
 
 

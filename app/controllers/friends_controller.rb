@@ -1,6 +1,6 @@
 class FriendsController < ApplicationController
   before_action :set_friend, only: :destroy
-
+before_action :student_only
   def index
     @friends = current_user.friends
   end
@@ -35,4 +35,9 @@ def create
   def set_friend
     @friend = current_user.friends.find(params[:id])
   end
+  def student_only
+    unless current_user.student? || current_user.admin?
+      redirect_to root_path, :alert => "Access denied."
+    end
+ end
 end

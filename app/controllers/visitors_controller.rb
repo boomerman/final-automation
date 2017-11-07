@@ -13,6 +13,8 @@ end
 def student
 end
 def teacher
+  @panels = Panel.all
+  @groups= Friendship.where(guide: current_user.college_roll)
 end
 def coordinator
 

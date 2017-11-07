@@ -1,0 +1,30 @@
+<%= form_for(panel) do |f| %>
+  <% if panel.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(panel.errors.count, "error") %> prohibited this panel from being saved:</h2>
+
+      <ul>
+      <% panel.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div class="field">
+    <%= f.label :pannel_id %>
+    <%= f.text_field :panel_id, placeholder: "example- P12" %>
+  </div>
+  <div class="field">
+    <%= f.label :teacher_1 %>
+    <%= f.number_field :teacher_1 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :teacher_2 %>
+    <%= f.number_field :teacher_2 %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

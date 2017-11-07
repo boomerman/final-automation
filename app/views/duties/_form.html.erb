@@ -1,0 +1,42 @@
+<%= form_for(duty) do |f| %>
+  <% if duty.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(duty.errors.count, "error") %> prohibited this duty from being saved:</h2>
+
+      <ul>
+      <% duty.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :group_id %>
+    <%= f.text_field :group_id, placeholder: "example- G 21" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :panel_id %>
+    <%= f.text_field :panel_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :date %>
+    <%= f.date_select :date %>
+  </div>
+
+  <div class="field">
+    <%= f.label :time %>
+    <%= f.time_select :time %>
+  </div>
+
+  <div class="field">
+    <%= f.label :venue %>
+    <%= f.text_area :venue %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

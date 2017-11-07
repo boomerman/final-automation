@@ -1,6 +1,7 @@
 
 <% if user_signed_in? %><h1>Welcome <%= current_user.name %></h1>
 <p><b>Email: </b><%=current_user.email %></p> 
+<% if current_user.try(:student?)%>
 <% if Friendship.exists?(user_id: current_user) %>
 
 <p><b>Grouped members:</b><%= @dosts.friend_roll%> </p>
@@ -10,5 +11,5 @@
 
 <%else%>
 <%= render 'visitors/request_table' %>
-<%end%>
+<%end%><%end%>
 <% end%>

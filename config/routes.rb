@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :synopses
+  resources :duties
+  resources :panels
   get 'guideallot/allotment'
 resources :guideallots, only: [:update]
   resources :friendships

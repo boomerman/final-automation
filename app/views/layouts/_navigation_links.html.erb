@@ -4,6 +4,13 @@
 <% if current_user.try(:student?) %>
 <li><%= link_to 'student corner',  project_corner_path %></li>
 <%end%>
+<% if current_user.try(:guide?) %>
+<li><%= link_to 'guide Portal',  guide_path %></li>
+<li><%= link_to 'synopsis evaluation sheet',  synopses_path %></li>
+<%end%>
+<% if current_user.try(:coordinator?) %>
+<li><%= link_to 'coordinator Portal',  coordinator_path %></li>
+<%end%>
 <% if controller.try(:visitors?)%>
  <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Friend Requests

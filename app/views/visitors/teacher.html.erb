@@ -1,0 +1,29 @@
+<h1>Welcome <%= current_user.name %>
+<div class="row">
+<div class="col-md-8">
+<h3>Groups for you to guide</h3>
+<table class="table"><th>Group ID</th><th>student 1</th><th>student 2</th>
+	<tbody><% @groups.each do |group| %>
+	<%if group.id%2 ==0%>
+		<%else%>
+		<tr> <td><%= group.group_id %></td>
+			<td><%= group.user_roll %></td>
+			<td><%= group.friend_roll %></td><%end%>
+		</tr>
+	 <% end %>
+	</tbody></table>
+
+
+
+</div>
+<div class="col-md-4">
+
+<h3>You are in pannel</h3>
+<ul>
+<% @panels.each do |panel| %>
+<% if panel.teacher_1 == current_user.college_roll || panel.teacher_2 == current_user.college_roll %>
+<li><%=panel.panel_id%></li>
+
+<%end%>
+<%end%>
+</ul>

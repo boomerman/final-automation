@@ -1,4 +1,5 @@
 class FriendshipsController < ApplicationController
+  before_action :student_only
 def index
 end
 def create
@@ -37,5 +38,10 @@ puts a
     params.require(:friendship).permit(:guide)
 
   end
+  def student_only
+    unless current_user.student? || current_user.admin?
+      redirect_to root_path, :alert => "Access denied."
+    end
+ end
 end
  

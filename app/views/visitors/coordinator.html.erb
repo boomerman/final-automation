@@ -1,4 +1,8 @@
-<% if user_signed_in? %><h1 style="color:red">Welcome <%= current_user.name %></h1>
+<% if user_signed_in? %>
+<h1 style="color:red">Welcome <%= current_user.name %></h1>
 <p><b>Email: </b><%=current_user.email %></p> 
 <%= button_to "assign guides", guideallot_allotment_path, :method =>"get", class: "btn btn-primary" %>
+<br>
+<%= button_to "decide pannels", panels_path, :method =>"get", class: "btn btn-primary" %><br>
+<%= button_to "allot evaluation duties", duties_path, :method =>"get", class: "btn btn-primary" %>
 <%end%>

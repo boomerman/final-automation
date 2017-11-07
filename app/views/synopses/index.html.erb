@@ -1,0 +1,21 @@
+<h1>synopsis evaluation mark sheet</h1>
+<%=form_for :synopsis, method: :post do |f| %>
+Group_id: <%=f.text_field :group_id, placeholder: 'example-G 15'%> Project Title: <%=f.text_field :title %>
+	<div class="field">
+    <%= f.label :Identify_Problem_Domain_Requirement_analysis_and_Feasibility_of_the_proposed_work %>
+    <%= f.select :ipdr, ['Excellent(5)','Good(4)','Average(3)','Acceptable(2)','Unacceptable(1)'], :prompt => 'Select One' %>
+  </div>
+  <div class="field">
+    <%= f.label :Objectives_of_the_proposed_work %>
+    <%= f.select :opw, ['Excellent(5)','Good(4)','Average(3)','Acceptable(2)','Unacceptable(1)'], :prompt => 'Select One' %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Methodology_of_the_proposed_work %>
+    <%= f.select :meth, ['Excellent(5)','Good(4)','Average(3)','Acceptable(2)','Unacceptable(1)'], :prompt => 'Select One' %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+<%= link_to 'go back', guide_path %>

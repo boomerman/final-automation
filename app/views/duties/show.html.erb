@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Group:</strong>
+  <%= @duty.group_id %>
+</p>
+
+<p>
+  <strong>Panel:</strong>
+  <%= @duty.panel_id %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @duty.date %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @duty.time %>
+</p>
+
+<p>
+  <strong>Venue:</strong>
+  <%= @duty.venue %>
+</p>
+
+<%= link_to 'Edit', edit_duty_path(@duty) %> |
+<%= link_to 'Back', duties_path %>

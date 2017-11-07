@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Panel:</strong>
+  <%= @panel.panel_id %>
+</p>
+
+<p>
+  <strong>Teacher 1:</strong>
+  <%= @panel.teacher_1 %>
+</p>
+
+<p>
+  <strong>Teacher 2:</strong>
+  <%= @panel.teacher_2 %>
+</p>
+
+<%= link_to 'Edit', edit_panel_path(@panel) %> |
+<%= link_to 'Back', panels_path %>
