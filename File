@@ -1,0 +1,1144 @@
+                                                                                                                Chapter 1
+
+Introduction
+
+                                                                                                                                                                                                                                                          
+
+1.1  Introduction to Organization
+
+ 
+
+Company Profile
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Co-founded in 1981 by 7 Engineers N. R. Narayana Murthy, Nandan Nilekani, N. S. Raghavan, S. Gopalakrishnan, S. D. Shibulal, K. Dinesh and Ashok Arora after they resigned from Patni Computer Systems. The company was incorporated as "Infosys Consultants Pvt Ltd." with a capital of ₹10,000 or US$250 (equivalent to about $659 in 2016) or (₹6,41,800 in 2017) in Model Colony, Pune as the registered office.[11] It signed its first client, Data Basics Corporation, in New York City. In 1983, the company's corporate headquarters was relocated from Pune to Bengaluru.
+
+Name Change: The Company changed its name to "Infosys Technologies Private Limited" in April 1992 and to "Infosys Technologies Limited" when it became a public limited company in June 1992. It was later renamed to "Infosys Limited" in June 2011.[13]
+
+An initial public offer (IPO) in February 1993 with an offer price of ₹95 (equivalent to ₹480 or US$7.50 in 2016) per share against book value of ₹20 (equivalent to ₹100 or US$1.60 in 2016) per share. The Infosys IPO was under subscribed but it was "bailed out" by US investment bank Morgan Stanley which picked up 13% of equity at the offer price. Its shares were listed in stock exchanges in June 1993 with trading opening at ₹145 (equivalent to ₹740 or US$11 in 2016) per share.
+
+In October 1994, it made a private placement of 5,50,000 shares at ₹450 (equivalent to ₹2,100 or US$32 in 2016) each against book value of ₹10 (equivalent to ₹46 or 71¢ US in 2016) per share to Foreign Institutional Investors (FIIs), Financial Institutions (FIs) and Corporates.
+
+In March 1999, it issued 2,070,000 ADSs (equivalent to 1,035,000 equity shares of par value of ₹10 (equivalent to ₹30 or 47¢ US in 2016) each) at US$34 (equivalent to $48.88 in 2016) per ADS under the American Depositary Shares Program and the same were listed on the NASDAQ National Market in US. The total issue amount was US$70.38 million.
+
+The share price surged to ₹8,100 (equivalent to ₹24,000 or US$380 in 2016) by 1999 making it the costliest share on the market at the time. At that time, Infosys was among the 20 biggest companies by market capitalization on the NASDAQ.
+
+During July 2003, June 2005 and November 2006, it made secondary ADS issues of US$294 (equivalent to $382.76 in 2016) million, US$1.07 (equivalent to $1.31 in 2016) billion and US$1.605 (equivalent to $1.91 in 2016) billion respectively.
+
+In December 2002, Infosys transferred the listing of its American Depositary Shares (ADS) from the NASDAQ to the NYSE.
+
+In July 2014, Infosys started a product subsidiary called, EdgeVerve Systems., focusing on enterprise software products for business operations, customer service, procurement and commerce network domains.
+
+In August 2015, the Finacle Global Banking Solutions assets were officially transferred from Infosys and became part of the product company EdgeVerve Systems product portfolio.
+
+The credit rating of the company is A- (given by Standard & Poor's on 13-Dec-2013). In February 2015, Infosys announced it would acquire the US automation technology company Panaya for around $200 million.
+
+Mission
+
+Infosys is committed to the communities in which it operates. This has led to the creation of Infosys Foundation to support the underprivileged sections of society. A not-for-profit initiative aimed at fulfilling the social responsibility of Infosys Ltd., the Infosys Foundation creates opportunities and strives towards a more equitable society.
+
+Established in 1996, the Infosys Foundation supports programs in the areas of education, rural development, healthcare, arts and culture, and destitute care. Its mission is to work in remote regions of several states in India.
+
+The Infosys Foundation takes pride in working with all sections of society, selecting projects with infinite care, and working in areas that traditionally overlooked by society at large.
+
+At the outset, the Infosys Foundation implemented programs in Karnataka, and subsequently extended its coverage to Andhra Pradesh, Arunachal Pradesh, Bihar, Delhi, Gujarat, Jammu & Kashmir, Kerala, Madhya Pradesh, Maharashtra, Orissa, Punjab, Rajasthan, Tamil Nadu, Uttarakhand and West Bengal.
+
+Vision
+
+To be a globally respected corporation that provides best-of-breed business solutions, leveraging technology, delivered by best-in class people
+
+Training Centre at Mysore
+
+As the world's largest corporate university, the Infosys global education centre in the 337-acre campus has 400 instructors and 200 classrooms with international benchmarks at its core. Established in 2002, it had trained around 125,000 engineering graduates by June 2015 It can train 14,000 employees at a given point of time on various technologies.
+
+The Infosys Leadership Institute (ILI), based in Mysore has 96 rooms and trains about 400 Infoscions annually.
+
+In addition to above, Infosys Training Center in Mysore also provides number of extra-curricular facilities like Tennis, Badminton, Basketball, Swimming pool, Gym etc.
+
+ 
+
+1.2  Introduction to project
+
+ We are working on Website development project named Concert Booking Service. This project is completely build on ADF (Application Development Framework). We are designing this application for saving personal time by providing everything under one roof. We do this by availing the information from different sources and updating on our website for those people who want to attend the concert going to happen in the different places of India. There are other features like if someone only wants to view the concerts without login or if someone wants to book the concert as well.
+
+There are mainly two section in the project:
+
+1.      Admin Section
+
+2.      User Section
+
+Admin Section:
+
+This section mainly handles the website. It acts as an interface between user section and website. The entire site is handled by the administrator by using admin section. Only one person can access the admin panel known as administrator that controls all the site form backend. In admin section administrator can manipulate the entire site like update the concerts shown on front end, delete the concerts and modify the data. Administrator adds latest concerts and manipulates it. All the registered user’s information is shown in admin section and administrator can easily manipulate it. This section manages all the tasks that are to be performed and keep track of the requirements of users. The main functions of this panel are checking for the new user and registering them after the complete verification of their details. Then administrator assigns them the username and password so that they can login and put the details of their item on the website whenever they want to book the concert.
+
+ 
+
+User Section:
+
+You don’t need to go anywhere in the world just registered on the website and access and know all the information about the concerts. In this project every user (end user) has its unique Login Id and password to access his account and use the website. Organizations definitely will love this project.
+
+1.3  Objectives
+
+ 
+
+·         We can have the facility to know about the different concerts going to happen in India.
+
+·         We can have the facility to access the site for the booking of the concert
+
+·         A user can also give his/her feedback based on the respective concert.
+
+·         We also offer user to review his/her feedback.
+
+ 
+
+1.4   Problem Formulation
+
+·        A Problem well defined is a problem half solved.
+
+·        Formulating a Problem Formulation is the first and most important step of a research process. It fits the level of researcher’s level of research skills, needed resources and time restrictions and can be investigated through the collection and analysis of data
+
+·         Our team will give proper attention to the visitor problems.  
+·         We are also providing contact system in our project, if any visitor finds something wrong in our content then they can contact us.
+
+·         We will welcome any type of suggestion and if we find it right then we will implement that suggestion in our site.
+
+ 
+
+1.5 Identification/Recognition of Needs
+
+Our Concert Booking Service basically targets different segments to fulfill the desired needs of people which are following below: -
+
+ 
+
+·         To enhance the information of our people, there is also different filters from which a user can select his/her concert according to his/her requirement.
+
+·         We want that people of our country must have knowledge about current concert so that they can enjoy the concerts going to happen for them.
+
+ 
+
+ 
+
+1.6 Existing System
+
+ 
+
+The existing system are designed on different frameworks we have some sites on the internet in which there is no collective information. We did not find any site on the internet which provide information in such a way, but we have tried to give all facilities. So, all in all our site is user friendly site. It is purely build on ADF.
+
+ 
+
+1.7 Proposed System
+
+ 
+
+To remove the limitations of the existing system, In the proposed system, people can easily get information about different concerts and they can book their concerts very easily by going through login process. People can update themselves with current concerts.
+
+ 
+
+ 
+
+ 
+
+ 
+
+1.8 Tools and Techniques used
+
+1.8.1 Oracle ADF
+
+Oracle Application Development Framework (Oracle ADF) is an innovative, yet mature Java EE development framework available from Oracle and directly supported and enabled by the award winning development environment, Oracle JDeveloper 11g. Oracle ADF simplifies Java EE development by minimizing the need to write code that implements the application’s infrastructure allowing the developers to focus on the features of the actual application. Oracle ADF provides these infrastructure implementations as part of the framework. To recognize a set of runtime services is not enough, Oracle ADF is also focused on the development experience to provide a visual and declarative approach to Java EE development through the Oracle JDeveloper 11g development tool. Oracle ADF implements the Model-View-Controller design pattern and offers an integrated solution that covers all the layers of this architecture with solution to such areas as: Object/Relational mapping, data persistence, reusable controller layer, rich Web user interface framework, data binding to UI, security and customization. Extending beyond the core Web based MVC approach, ADF also integrates with the Oracle SOA and WebCenter Portal frameworks simplifying the creation of complete composite applications. For example, Oracle ADF makes it easy to develop agile applications that expose data as services by coupling a service interface to the built-in business services in ADF. This separation of business service implementation details is performed in Oracle ADF via metadata. Use of this metadata-driven architecture enables application developers to focus on the business logic and user experience, rather than the details of how services are accessed. Creating the user experience is as simple as dragging-and-dropping the desired business services onto a visual page designer and indicating what type of component should represent that data. In the example illustrated, we are able to take a database table exposed as a business service, and request JDeveloper to render the data as a table simply by dragging-and-dropping the control on the page and responding to the automatic popup by indicating a table as the desired rendering component. Oracle ADF takes care of the rest.
+
+
+Fig1.2: ADF
+
+ 
+
+1.8.2 The Oracle ADF Architecture
+
+ 
+
+ Oracle ADF is based on the Model-View-Controller (MVC) design pattern. An MVC application is separated into: 1) a model layer that handles interaction with data-sources and runs the business logic, 2) a view layer that handles the application user interface, and 3) a controller that manages the application flow and acts as the interface between the Model and the View layers. Separating applications into these three layers simplifies maintenance and reuse of components across applications. The independence of each layer from the others results in a loosely coupled, Service Oriented Architecture (SOA). Oracle ADF implements MVC and further separates the model layer from the business services to enable service-oriented development of applications. The Oracle ADF architecture is based on four layers: Oracle White Paper—Oracle Application Development Framework Overview 4
+
+· The Business Services layer - provides access to data from various sources and handles business logic.
+
+· The Model layer - provides an abstraction layer on top of the Business Services layer, enabling the View and Controller layers to work with different implementations of Business Services in a consistent way.
+
+· The Controller layer - provides a mechanism to control the flow of the Web application.
+
+· The View layer - provides the user interface of the application. Oracle ADF Architecture Oracle ADF lets developers choose the technology they prefer to use when implementing each of the layers.
+
+The diagram below shows the various options available for developers when building Oracle ADF applications. The glue that integrates the various components of Java EE applications and makes development so flexible is the Oracle ADF model layer. EJB, Web Services, JavaBeans, JPA/EclipseLink/TopLink objects and many others can all be used as Business Services for the Oracle ADF Model.
+
+
+Fig1.3: Oracle Architecture
+
+ 
+
+ 
+
+View layers can include Web based interfaces implemented with JSF, Desktop Swing applications and MS Office front ends, as well as interfaces for mobile devices.
+
+ 
+
+1.8.3 User Interface Development
+
+ 
+
+Visual and declarative development features of the View and Controller layers of an application are plentiful in Oracle JDeveloper:
+
+ 
+
+· ADF Faces - a large set of over a 150 UI components built on top of the standard JSF APIs that leverage the latest technologies — including partial page rendering and Ajax — to provide a rich, interactive user interface.
+
+ 
+
+
+Fig1.4: ADF faces
+
+ 
+
+· A page flow modeler for the ADF controller and the standard JSF framework page flow, providing visual page flow modeling using simple drag and drop of components onto a diagram. Oracle White Paper—Oracle Application Development Framework
+
+· A visual editor for JSP, JSF, HTML, Swing, and Wireless based user interfaces, allowing WYSIWYG development for all types of components.
+
+· Declarative development tools for adding components to the user interface, including the creation of declarative components, a property inspector, extensible component palette, and data control palette.
+
+ 
+
+1.8.4  CSS
+
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation semantics (the look and formatting) of a document written in a markup language. Its most common application is to style web pages written in HTML and XHTML, but the language can also be applied to any kind of XML document, including plain XML, SVG and XUL.
+
+CSS is designed primarily to enable the separation of document content (written in HTML or a similar markup language) from document presentation, including elements such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple pages to share formatting, and reduce complexity and repetition in the structural content (such as by allowing for table less web design). CSS can also allow the same markup page to be presented in different styles for different rendering methods, such as on-screen, in print, by voice (when read out by a speech-based browser or screen reader) and on Braille-based, tactile devices. It can also be used to allow the web page to display differently depending on the screen size or device on which it is being viewed. While the author of a document typically links that document to a CSS file, readers can use a different style sheet, perhaps one on their own computer, to override the one the author has specified.
+
+CSS specifies a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called cascade, priorities or weights are calculated and assigned to rules, so that the results are predictable.
+
+·         CSS stands for Cascading Style Sheets.
+
+·         Styles define how to display HTML elements.
+
+·         Styles were added to HTML 4.0 to solve a problem.
+
+·         External Style Sheets can save a lot of work.
+
+·         External Style Sheets are stored in CSS files.
+
+A CSS rule has two main parts: a selector, and one or more declarations:
+
+ 
+
+
+Fig1.5: CSS tags
+
+ 
+
+1.8.4.1 CSS Example
+
+A CSS declaration always ends with a semicolon, and declaration groups are surrounded by curly brackets:
+
+p {color:red;text-align:center;}
+
+To make the CSS more readable, you can put one declaration on each line, like this:
+
+EXAMPLE:
+
+p
+{
+color:red;
+text-align:center;
+}
+
+1.8.4.2 Class Id and Class
+
+The Id and Class Selectors
+
+In addition to setting a style for a HTML element, CSS allows you to specify your own selectors called "id" and "class".
+
+The Id Selector
+
+The id selector is used to specify a style for a single, unique element.
+
+The id selector uses the id attribute of the HTML element, and is defined with a "#".
+
+The style rule below will be applied to the element with id="para1":
+
+EXAMPLE:
+
+#para1
+
+{
+
+text-align: center;
+
+color: red;
+
+}
+
+The Class Selector
+
+The class selector is used to specify a style for a group of elements. Unlike the id selector, the class selector is most often used on several elements. This allows you to set a particular style for many HTML elements with the same class. The class selector uses the HTML class attribute, and is defined with a "."In the example below, all HTML elements with class="center" will be center-aligned:
+
+EXAMPLE:
+
+.center {
+
+text-align: center;
+
+}
+
+1.8.4.3 Three Ways to Insert CSS
+
+There are three ways of inserting a style sheet:
+
+·         External CSS
+
+·         Internal CSS
+
+·         Inline CSS
+
+External Cascading Style Sheet-
+
+With an external style sheet, you can change the look of an entire website by changing just one file! Each page must include a reference to the external style sheet file inside the <link> element. The <link> element goes inside the <head> section:
+
+EXAMPLE:
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+
+<body>
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph. </p>
+
+</body>
+
+</html>
+
+Here is how the "myStyle.css" looks:
+
+body {
+
+background-color: light blue;}
+
+h1 {
+
+color: navy;
+
+margin-left: 20px;
+
+}
+
+Internal Cascading Style Sheet
+
+An internal style sheet may be used if one single page has a unique style.Internal styles are defined within the <style> element, inside the <head> section of an HTML page:
+
+EXAMPLE:
+
+<head>
+
+<style>
+
+body {
+
+    background-color: linen;
+
+}
+
+h1 {
+
+    color: maroon;
+
+    margin-left: 40px;
+
+}
+
+</style>
+
+</head>
+
+Inline style sheet
+
+An inline style may be used to apply a unique style for a single element. To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property. The example below shows how to change the color and the left margin of a <h1> element:
+
+EXAMPLE:
+
+<h1 style="color: blue; margin-left:30px;">This is a heading. </h1>
+
+ 
+
+1.9  Oracle Database
+
+An Oracle database is a collection of data treated as a unit. The purpose of a database is to store and retrieve related information. A database server is the key to solving the problems of information management. In general, a server reliably manages a large amount of data in a multiuser environment so that many users can concurrently access the same data. All this is accomplished while delivering high performance. A database server also prevents unauthorized access and provides efficient solutions for failure recovery. Oracle Database is the first database designed for enterprise grid computing, the most flexible and cost effective way to manage information and applications. Enterprise grid computing creates large pools of industry-standard, modular storage and servers. With this architecture, each new system can be rapidly provisioned from the pool of components. There is no need for peak workloads, because capacity can be easily added or reallocated from the resource pools as needed.
+
+The database has logical structures and physical structures. Because the physical and logical structures are separate, the physical storage of data can be managed without affecting the access to logical storage structures.
+
+We want the database to be:
+
+·         The best and the most-used database in the world for online applications.
+
+·         Available and affordable for all.
+
+·         Easy to use.
+
+·         Continuously improved while remaining fast, secure and reliable.
+
+·         Fun to use and improve.
+
+·         Free from bugs.
+
+ 
+
+Chapter 2
+
+ Requirements Analysis and System Specification         
+
+ 
+
+2.1 Feasibility Study
+
+Before developing this project, we first analyze existed system of study. In existed system all work is performed using papers. As we know, now days computer is used in every field. We can remove the paper work by using automatic system. We see it first that if it is feasible or not whether technically, economically, operationally. We test that whether it properly works or not. Its technical requirements are feasible or not. We analyzed the system properly and then start designing it. After designing, we implement this project that whether this project works properly or not. After implementing the project, we check that whether there is any problem for the user while using this project.
+
+Types
+
+There are various measures of feasibility that helps to decide whether a particular project is feasible or not.
+
+Each of these types will be explained in detail throughout the project report.
+
+2.1.1 Operational feasibility
+
+A proposed system is beneficial only if it can be turned into an information system that will meet the operational requirements of an organization. A system often fails if it does not fit within existing operations and if users resist the change. Important issues a systems developer must look into are:
+
+Will the new system be used if implemented in an organization?
+
+Are there any major barriers to implementation or is proposed system accepted without destructive resistance?
+
+The whole purpose of our project is to handle the work much more accurately and efficiently with less time consumption. This app is very much beneficial for the unsatisfied users for purchasing things online. Another important fact to be regarded is the wish list, i.e. users can create their own list of favorite products or brands. Satisfying the customer is our main motive. The proposed system protects the customers against fraud and misleading advertisements and guarantees the accuracy of data and information. This is handled by the system providing individuals with separate login names and passwords. The new system is user-friendlier, which enables the end-user to complete his/her work efficiently and accurately with interest. After taking the above fact into consideration we can state the operating of the proposed system within the organization is feasible.
+
+The new proposed system will affect the users in the following areas: -
+
+·         Accurate data
+
+·         Details about latest brands and products
+
+·         Easy access    
+
+·         Amazing UI design
+
+2.1.2 Technical Feasibility
+
+Based on the outline design of the system requirements in terms of inputs, output, Procedures, the technical issues raised during technical feasibility include:
+
+Does the necessary technology exist to do what is proposed?
+
+Does the proposed equipment have the technical capacity to hold the data required to use in the new system?
+
+Is there any technical guarantee of accuracy, reliability, ease of access and data security?
+
+The system developer’s task is to view needed capabilities in light of currently available technology. Our mobile application works hand in hand with high technology. A database has to be maintained in order to view, update and backup data whenever required. To create databases, we use SQL database that is very user friendly for online users.   
+
+2.1.3 Economical Feasibility
+
+In making recommendations a study of the economics of the proposed system should be made. Even though finding out the costs of the proposed project is difficult we assume and estimate the costs and benefits as follows.
+
+Return on Investment
+
+·         There will be revenue in terms of more Customer Registrations.
+
+·         App drives foot traffic to local establishments
+
+·         It enables users to avoid extra trips to make a purchase.
+
+·         User satisfaction will lead to more upgrades and reduce the downgrades.
+
+ 
+
+2.2 Software Requirement Specification Document which must include the following:
+
+2.2.1 Hardware and Software Requirements
+
+Hardware Requirement:
+
+Processor
+
+Pentium-IV and Above
+
+RAM
+
+4GB (recommended)/ above
+
+Storage
+
+4 GB in Hard Disk Drive
+
+Graphics card
+
+256 MB (above)
+
+Table2.1: Hardware Requirement
+
+Software Requirement:
+
+Operating System
+
+Window 7/8
+
+IDE
+
+Sublime Text 3
+
+Front End
+
+CSS, JSPX
+
+Back End
+
+ORACLE DATABASE ,JAVA
+
+Table2.2: Software Requirement
+
+ 
+
+The software requirement specification is produced at the culmination of the analysis task. The function and performance allocated to software as part of system engineering are refined by establishing a complete information description, a detailed functional description, a representation of system behavior, an indication of performance requirement and design constraints appropriate validation criteria, and other information pertinent to requirement.
+
+The introduction to software requirement specification states the goals and objectives of the software, describing it in the context of the computer based system.
+
+The Information Description provides a detailed description of the problem that the software must solve. Information content, flow and structure are documented.
+
+A description of each function required to solve the problem is presented in the functional Description. Validation Criteria is probably the most important and ironically the most often neglected section of the software requirement specification.
+
+2.2.2 Technology used
+
+Languages used for these Products:
+
+Server Side Technologies:
+
+·         JAVA
+
+·         MYSQL
+
+Client Side Technologies:
+
+·         JSPX
+
+·         CSS
+
+Database used for these products:
+
+·        ORACLE Database
+
+ 
+
+2.2.3 The Two Types of Requirements:
+
+ 
+
+·         Functional Requirements
+
+·         Non – Functional Requirements
+
+ 
+
+The term “requirements” in the projected software are too broad. Developers have to classify these requirements to create clearer goal for the intended software. It is important for any developers to list all the requirements and classify them to ensure that the software will have all the expected properties and could exceed the expectations of the software. When developers lay out the expected requirements from the software, they should be able to visualize what type of software they will be developing.
+
+ 
+
+2.2.4 Functional Requirements
+
+ 
+
+The first type of requirement in software is the functional requirement.  In this category, developers list the functions that the software should be able to perform.  These are practically the functions that the users will be looking for in the software. For example, the requirements for software to be used in a business would ideally be a overall productivity software. The functional requirement of office productivity software should have the ability to calculate or to collate information from different sources and print them.
+
+ 
+
+ 
+
+ 
+
+2.2.5 Non-Functional Requirements
+
+Non-functional type of requirement does not require actions but they are basically intrinsic in software. Without this, the software will never function or would have deficiency in its output. One great example of non-functional requirements in software are the type of interface you should be expecting in a software. Other examples of non-functional requirements in software are security, accuracy, availability, capacity, reliability, and response time. These are basically the properties and performance expected from the software. There are developers who focus on non-functional requirements because it will basically dictate how the software will function.
+
+ 
+
+2.3 Expected hurdles
+
+HTML Problem: This is a very common while working in ADF environment. HTML pages cannot be linked with the JSPX pages. This problem we come to know in the sprint 2 period which is solved later on.
+
+Page Flow: Page flows are set with some difficulty at earlier stage, but still html issues are there. HTML to JSPX or JSPX to HTML page flow cannot be done.
+
+CSS Integration: CSS integration is hard to done with this ADF, we have to inspect the code elements first to find its class then to add properties in some another CSS page.
+
+2.4   Agile Model
+
+Agile is a time boxed, iterative approach to software delivery that builds software incrementally from the start of the project, instead of trying to deliver it all at once near the end.
+
+It works by breaking projects down into little bits of user functionality called user stories, prioritizing them, and then continuously delivering them in short two week cycles called iterations.
+
+
+Fig2.1: Iterations
+
+
+Fig2.2: Traditional vs Agile
+
+ 
+
+2.2.1        Agile Principles
+
+·         Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+·         Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.
+
+·         Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+
+·         Business people and developers must work together daily throughout the project.
+
+·         Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+
+·         The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+
+·         Working software is the primary measure of progress.
+
+·         Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+
+·         Continuous attention to technical excellence and good design enhances agility.
+
+·         Simplicity — the art of maximizing the amount of work not done — is essential.
+
+·         The best architectures, requirements, and designs emerge from self-organizing teams.
+
+·         At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+
+
+Fig2.3: Cycles in agile
+
+   
+
+2.5    Scrum
+
+ 
+
+Perhaps the most popular of Agile methods today, Scrum is an project management framework that encourages teams to self-organize and deliver functionality iteratively in two week time boxes called sprints.
+
+ 
+
+ 
+
+
+Fig2.4: Scrum
+
+ 
+
+The Product Backlog is the to do list for the project. It contains a list of all the features the Product Owner would one day like to see in their software. It’s prioritized, estimated, and what the team draws from when deciding what to do in a iteration or sprint.
+
+What the team commits to each sprint is tracked in a Sprint Backlog. It contains a list of user stories the Product Owner would like to developed for that sprint.
+
+The sprint is the Scrum version of an Agile iteration. This is the two-week period where the team gets stuff done. Scrum likes to call the output of a sprint potentially shippable product to remind us that this is production ready stuff and we could ship it if we had to.
+
+Scrum sprints don't have to be two weeks in length. In fact, the original Scrum sprint was 30 days. But most teams found this too long and two weeks seems to be about right for most teams.
+
+The Daily Scrum is ten minute daily huddle where all team members quickly get together to form plan of attack for the day. At this meeting team members are asked to answer three simple questions:
+
+1.      What did you do yesterday?
+
+2.      What will you today?
+
+3.      Is there anything blocking your way?
+
+                                     Chapter 3
+
+System Design
+
+ 
+
+3.1 Design Approach
+
+System design is the process of developing specifications for a candidate system that meet the criteria established in the system analysis. Major step in system design is the preparation of the input forms and the different connectivity’s of the pages with other page (task flows).
+
+ 
+
+Design objectives:
+
+The primary objective of the design is to deliver the requirements as specified in the sprint 1. These are the some of the objectives.
+
+Practicality:
+
+The system is quite stable and can be operated by the people with average intelligence.
+
+Efficiency:
+
+We tried to involve accuracy, timeliness and comprehensiveness of the system output.
+
+Cost:
+
+It is desirable to aim for the system with a minimum cost subject to the condition that it must satisfy the entire requirement.
+
+Flexibility:
+
+We have tried that the system should be modifiable depending on the changing needs of the user. Such modifications should entail extensive reconstructing or recreation of software. It should also be portable to different computer systems.
+
+Security:
+
+This is very important aspect which I followed in this designing phase and tried to covers the areas of hardware reliability, fallback procedures, and physical security of data.
+
+The main objective of the system design is to make the system user friendly; system design involves various stages as:
+
+·         Data Entry
+
+·         Data Correction
+
+·         Data Deletion
+
+·         Processing
+
+·         View Bookings
+
+·         View concerts
+
+System design is the creative act of invention, developing new inputs, a database, offline files, procedures and output for processing business to meet an organization objective. System design builds information gathered during the system analysis.
+
+3.1.1 Well Defined System
+
+In design an efficient and effective system is of great importance to consider the human factor and equipment that these will require to use. System analyst must evaluate the capabilities and limitations of the personal and corresponding factors of the equipment itself.
+
+The characteristics associated with effective system operations are:
+
+·         Accessibility
+
+·         Decision Making Ability
+
+·         Economy
+
+·         Flexibility
+
+·         Reliability
+
+·         Simplicity
+
+Success is a new system pivots on its acceptance or non-acceptance by the organization.
+
+3.2 System Design using various Structured analysis and design tools
+
+3.2.1  For Admin: 
+
+Add FAQ’s
+
+Update FAQ’s
+
+
+Add new Concert
+
+
+Update Concert details
+
+
+View Bookings
+
+
+Add new Genre
+
+
+ADMIN LOGIN
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+Fig 3.1: For admin
+
+ 
+
+ 
+
+For User:
+
+
+Home
+
+Logout
+
+
+Register
+
+
+Login
+
+ 
+
+
+Feedback
+
+
+Book Concert
+
+
+USER LOGIN
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+Fig 3.2: For user
+
+3.2.2 Flowchart:
+
+
+           HOME
+
+Homepage
+
+
+  Register/Login
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+                                      
+
+
+IF REG
+
+                                                                                                                     
+
+ 
+
+                       NOT REGISTERED                                           Yes
+
+
+         GET REGISTERED
+
+ 
+
+ 
+
+
+
+                                                              No
+
+                                                                 
+
+ ACCESS BY USER
+
+
+LEFT LINKS AND TOP LINKS
+
+    HOME
+
+
+Concerts
+
+
+Feedback
+
+
+FAQ’s
+
+ 
+
+
+LOGOUT
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+Fig3.3: Flow chart
+
+ 
+
+ 
+
+ 
+
+3.3 Database Design
+
+The overall objective in the development of the database technology has been to treat data as an organizational resource and as an integrated whole Database management system allows data to be protected and organize separately from other resources. Database is an integrated collection of data. The organization of data in the database aims to achieve free major objectives:
+
+·         Data Integration
+
+·         Data Integrity 
+
+·         Data Independence
+
+The Database is implemented using as. Each particular DBMS has unique
+
+Characteristics and general techniques for Database Design.
+
+The proposed Management Information System stores the information relevant for processing in the SQL Server Database. This SQL Server contains tables, where each table is called a field or column. A table also contains records which is a set of fields. All records, in a table the same set of fields with different information. Each table contains key fields that establish relationships in a SQL server database and how the records are stored. There are primary key fields that uniquely identify a record in a table. There are also fields that contain the primary key from another table called foreign keys.
+
+Eventually, the programmer will incorporate the source code into the various programs, thus assuring consistency and simplifying the coding process. The databases have been designed in such a way that there is no duplication of information and loss of information.
+
+ 
+
+3.3.1 Database Connection 
+
+Snapshot Create a New Database Connection:
+
+ 
+
+
+Fig 3.4
+
+ 
+
+Snapshot of Enter Connection Details:
+
+
+Fig 3.5
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Chapter 4
+
+ Implementation, Testing and Maintenance
+
+ 
+
+4.1 Technologies used for Implementation
+
+The main technology which is used to deploy the project is ADF (Application Data Framework). The implementation phase involves installing approved applications into production environments. Primary tasks include announcing the implementation schedule, training end users, and installing the product. Additionally, organizations should input and verify data, configure and test system and security parameters, and conduct post-implementation reviews. Management should circulate implementation schedules to all affected parties and should notify users of any implementation responsibilities.
+
+After organizations install a product, pre-existing data is manually input or electronically transferred to a new system. Verifying the accuracy of the input data and security configurations is a critical part of the implementation process. Organizations often run a new system in parallel with an old system until they verify the accuracy and reliability of the new system. Employees should document any programming, procedural, or configuration changes made during the verification process.
+
+ 
+
+4.2 Coding standards of Language used
+
+The input to the Design is the sprint1. During the sprint1 phase, different modules identified in the design are coded according to the module specifications. The Objectives of the sprint1 phase is to transform the design of the system, as given by its module specifications, into a high level languages and code and then unit this code. Software developers adhere to some well-defined and standard style of coding called coding standards. The reasons for adhering to a standard coding style are the following.
+
+·         It gives a uniform appearance to the codes written by different engineers.
+
+·         It encourages good programming practices.
+
+·         It encourages code understanding.
+
+Coding Standards:
+
+·         Rules for limiting the use of global.
+
+·         Content of the headers preceding codes for different modules.
+
+·         Errors return conventions and exception handling mechanisms.
+
+Code Walk-Through:
+
+It is an Informal technique for analysis of the code. A code walk through of a module is undertaken after the coding of the module is complete. Here, after a module has been coded, members of the development team selects some test cases and simulates execution of the by hand.
+
+Code  Inspections:
+
+They aim explicitly at the discovery of commonly made errors. During which, the code is examined for the presence of certain kinds of errors, in contrast to the hand simulation on code execution as done in code walk-through.
+
+ 
+
+4.3 Tool used for project scheduling
+
+Agile Methodology and Scrum:
+
+Scrum is an agile methodology where products are built in a series of fixed-length iterations. There are four pillars that bring structure to this framework: sprint planning, stand ups (also called daily scrums), sprints, and retrospectives. Out-of-the-box, JIRA Software comes with a comprehensive set of agile tools that help your scrum team perform these events with ease.
+
+Sprint planning meetings determine what the team should complete in the coming sprint from the backlog, or list of work to be done. Track versions, features, and progress at a glance. Click into a version to see the complete status, including the issues, development data, and potential problems.
+
+
+Fig4.1 Agile methodology
+
+Easy backlog grooming
+Easily re-prioritize your user stories and bugs. Select one or more issues, then drag and drop to reorder them in your backlog. Create quick filters to surface issues with important attributes.
+
+ 
+
+Sprint planning
+
+Make your backlog the center of your sprint planning meeting. Estimate stories, adjust sprint scope, check velocity, and re-prioritize issues in real-time with the rest of the team.
+
+ 
+
+Story points
+
+Estimate, track and report on story points to help your team become more accurate in future sprints. Use story points, ideal hours, or your own method of estimating.
+
+A sprint is a fixed-length iteration of work, typically one or two weeks in length. Work should be fully scoped and prioritized during the sprint planning meeting, so the team can get started as soon as the sprint begins. These features keep track of all the work being tackled in each sprint, so your team can stay focused on the tasks at hand. 
+
+Daily scrums or stand ups
+Also known as daily scrums, stand ups are short mini-meetings where the team gathers to go through a quick list of what's been done, what they will work on next and where they require someone's input or help. JIRA Software helps your team get a quick snapshot of the work in progress, so you can come prepared to discuss the most critical items for the day. 
+
+ 
+
+Burndown chart
+Track the total work remaining and project the likelihood of achieving the sprint goal. This helps your team manage its progress and respond accordingly.
+
+ 
+
+
+Fig4.2: Sprint 1
+
+
+Fig4.3: Sprint 2
+
+ 
+
+
+Fig4.4: Sprint 3
+
+ reports.
+
+Provision for further Enhancements:
+
+If it necessary, we can add new features and functionality to the system.
+
+Duplicity:
+
+As data is entered in different modules so consideration is made so that duplicate entry exists in the system.
+
+Future Scope
+
+The following section discusses the work that will be implemented with future releases of the software.
+
+1. Detailed categories: Future work could involve adding more categories which are more detailed and have additional items.
+
+2. Watch/Wish List: Work can add a watch list or wish list so that users can add an item to a list to watch for item prices to go down or to see when there is a sale on any of those items.
+
+3. Enhanced User Interface: Work on enhancing the user interface by adding more user interactive features.
+
+4. Recommended Items: Add a bar that would display the most-recommended items which would depend on the number of times an item has been viewed by any users.
+
+5. Payment Options: Add different payment options, such as Visa, MasterCard, PayPal, etc., where a user can also save the card information for later checkouts.
+
+6. Recent History: Display the user’s recently browsed items in the recent-history tab
+
+In future, this web application can be taken to a very advanced level by storing thousands of concerts and bands on server. The data can be updated on a regular basis thus taking the web application to a higher level. Further the user can also view or book any of the personalized concert or brand on the web application thus making it available to a large number of people.
+
+ 
+References/Bibliography
+
+1. Treutner, M. F., and Ostermann, H. Evolution of Standard Web Shop Software Systems: A Review and Analysis of Literature and Market Surveys.
+
+2. Jarvenpaa, S. L., and Todd, P. A. (1997). Consumer reactions to electronic shopping on the World Wide Web. International Journal of Electronic Commerce, 1:59–88.
+
+3. Peterson, R. A., Balasubramanian, S., and Bronnenberg, B. J. (1997). Exploring the implications of the internet for consumer marketing. Journal of the Academy of Marketing Science, 25:329–346.
+
+4. Bigne, Enrique. (2005). The Impact of internet user shopping patterns and demographics on consumer mobile buying behavior. Journal of Electronic Commerce Research, 6(3).
+
+5. King, Stephen F. en Juhn-ShiuanLiou (2004), A framework for internet channel evaluation. International Journal of Information & Management 24:473–488.
+
+6. Falk, Louis K., Sockel, Hy, and Chen, Kuanchin. (2005). E-Commerce and consumer's expectations: what makes a website work. Journal of Website Promotion, 1:65–75.
+
+7. Elliot, Steve, and Fowell, Sue. (2000). Expectations versus reality: a snapshot of consumer experiences with Internet retailing", International Journal of Information Management 20: 323–336.
+
+8. Java Shopping Cart Powered by SoftSlate., Retrieved on 2013. "http://www.softslate.com/featureList.html" 70
+
+9. Commerce4j, Java Based E-commerce Application and Online Catalog Management System., Retrieved on May 18, 2010. "https://code.google.com/p/commerce4j/"
+
+10. CS-Cart.com (Simbirsk Technologies Ltd), © 2004-2013.http://www.cs-cart.com/
+
+11. Ofbiz, The Apache Open for Business Project., Retrieved on 2013. "http://ofbiz.apache.org/index.html"
+
+12. Comparison of shopping cart software., Retrieved on June 28, 2013. "http://en.wikipedia.org/wiki/Comparison_of_shopping_cart_software
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
